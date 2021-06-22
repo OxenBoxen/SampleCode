@@ -20,7 +20,7 @@ class MessagingUtility: NSObject, UINavigationControllerDelegate,
     
     weak var delegate: MessagingUtilityDelegate?
 
-    var viewController: UIViewController!
+    weak var viewController: UIViewController!
     
     
     class func canSendMessages() -> Bool {
